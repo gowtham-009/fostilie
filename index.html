@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fostie</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/brands.min.css"
+    integrity="sha512-W/zrbCncQnky/EzL+/AYwTtosvrM+YG/V6piQLSe2HuKS6cmbw89kjYkp3tWFn1dkWV7L1ruvJyKbLz73Vlgfg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</head>
+<body>
+    <header>
+        <div class="container-fulid hed-contain">
+          <div class="container-fulid">
+            <div class="row">
+              <div class="col">
+                <figure class="logo d-flex justify-content-start align-items-center ml-3">
+                  <img src="image/logo.png" class="img-fluid" alt="logo">
+                </figure>
+              </div>
+              <div class="col  d-flex justify-content-end align-items-center">
+                <a class="btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                <img src="image/toogle-icon.png" class="img-fluid" alt="" width="40" height="40">
+              </a>
+              <div class="offcanvas offcanvas-start bg-dark w-100" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header justify-content-end">
+                  <button type="button" class="btn-close text-reset btn-light" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navlinks text-dark">
+                    <li><a href="" class="text-light ">Home</a></li>
+                    <li><a href="" class="text-light ">Blog</a></li>
+                    <li><a href="" class="text-light ">About</a></li>
+                    <li><a href="" class="text-light ">Services</a></li>
+                    <li><a href="" class="text-light ">Client</a></li>
+                    <li><a href="" class="text-light ">Contact Us</a></li>
+            </ul>
+                </div>
+              </div></div>
+            </div>
+           </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators csn">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class=" active" aria-current="true" aria-label="Slide 1" style="margin-right: 45%;background-color: #452b08ff;; border-radius: 200px; width: 115px; height: 100px; background-image: url(image/left-arrow.png); background-repeat: no-repeat; background-size:100%; background-position: 100%;"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"  aria-label="Slide 2" style="border-radius: 200px; background-color: #452b08ff;; width: 115px; height: 100px; background-image: url(image/right-arrow.png); background-repeat: no-repeat; background-size:100%; background-position: 100%;"></button>
+                
+                      </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="row">
+                        <div class="col-md">
+                          <div class="container">
+                            <div class="text-dark sl-content">
+                              <h1>WE ARE PROVIDE PROFESSIONAL CONSULTING</h1> 
+                              <p>It is a long established fact that a reader will be distracted by the readable content of a page</p>
+                              <div class="sl-btns d-flex gap-1 p-3">
+                                <a class="btn text-white rounded-5" href="#" role="button" style=" background-color: #452b08ff;">Read More</a>
+                                <a class="btn text-dark rounded-5" href="#" role="button" style="background-color: white;">Get A Quote</a>
+                              </div> 
+                            </div>
+                          </div>
+                          
+                        </div>
+                        <div class="col-md">
+                          <figure class="w-100 d-flex justify-content-center align-items-center">
+                              <img src="image/img-1.png" class="img-fluid" alt="img1">
+                          </figure>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="row">
+                        <div class="col-md">
+                          <div class="container">
+                            <div class="text-dark sl-content">
+                              <h1>WE ARE PROVIDE PROFESSIONAL CONSULTING</h1> 
+                              <p>It is a long established fact that a reader will be distracted by the readable content of a page</p>
+                              <div class="sl-btns d-flex gap-1">
+                                <a class="btn text-white rounded-5 btn-lg" href="#" role="button" style="background-color: #452b08ff;">Read More</a>
+                                <a class="btn text-dark rounded-5 btn-lg" href="#" role="button" style="background-color: white;">Get A Quote</a>
+                              </div> 
+                            </div>
+                          </div>
+                          
+                        </div>
+                        <div class="col-md">
+                          <figure class="w-100 d-flex justify-content-center align-items-center">
+                              <img src="image/img-1.png" class="img-fluid" alt="img1">
+                          </figure>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="videos ">
+            <figure class="imge ml-3 d-flex justify-content-center align-items-center">
+               <img src="image/play-icon.png" class="img-fluid" alt="">
+            </figure>
+            <h5 class="fs-6">See Consulting Video</h5>
+          </div>
+        </div>
+    </header>
+    <main>
+      <section id="what-we-do" class="w-100 d-flex justify-content-center">
+        <div class="main-we-do ">
+          <div class="container-fludi">
+            <div class="row">
+              <div class="col-12  d-flex gap-1 align-items-center con">
+                <h1>What We Do</h1>
+                <div class="line"></div>
+              </div>
+              <div class="col-12 b-cards d-flex justify-content-center gap-3 pt-3">
+                  <div class="we-do-cards p-3" style="background-color: #f2edbe;">
+                    <div class="logo-cont">
+                      <img src="image/img-3.png" class="img-fluid" alt="img" style="width: 100%; height: 100%;">
+                    </div>
+                    <h3 class="title-do fw-bold " style="margin-top: 19%;  font-size: 1.15rem; font-family: roboto condensed, sans-serif;">Consultative Training</h3>
+                    <p class="fs-6 fw-normal" style="font-family:Font Awesome 6 Brands;">Readable content of a page when looking at its layout. The point of it is a long established fact that a reader will be distracted by the readable</p>
+                  </div>
+                  <div class="we-do-cards p-3" style="background-color: #452b08ff;">
+                    <div class="logo-cont ">
+                      <img src="image/img-4.png" class="img-fluid" alt="img" style="width: 100%; height: 100%;">
+                    </div>
+                    <h3 class="title-do fw-normal textbold text-light " style="margin-top: 19%;  font-size: 1.15rem; font-family: roboto condensed, sans-serif;">Consultative Training</h3>
+                    <p class="fs-6 fw-normal text-light" style="font-family:Font Awesome 6 Brands;">Readable content of a page when looking at its layout. The point of it is a long established fact that a reader will be distracted by the readable</p>
+
+                  </div>
+                  <div class="we-do-cards p-3" style="background-color: #f2edbe;">
+                    <div class="logo-cont">
+                      <img src="image/img-5.png" class="img-fluid" alt="img" style="width: 100%; height: 100%;">
+                    </div>
+                    <h3 class="title-do fw-bold " style="margin-top: 19%;  font-size: 1.15rem; font-family: roboto condensed, sans-serif;">Consultative Training</h3>
+                    <p class="fs-6 fw-normal" style="font-family:Font Awesome 6 Brands;">Readable content of a page when looking at its layout. The point of it is a long established fact that a reader will be distracted by the readable</p>
+
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about-us" class="w-100 d-flex justify-content-center">
+        <div class="main-about">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-5  d-flex align-items-center ab1">
+                <figure class="about-pic w-100 d-flex  align-items-center">
+                  <img src="image/img-8.png" class="img-fluid" alt="aboutus">
+                </figure>
+              </div>
+              <div class="col-lg-7 d-flex justify-content-center align-items-center ab2">
+                <div class="container-fluid">
+                  <div class="text-dark abs-c">
+                    <h1 class="ab-head">About Us</h1> 
+                    <p class="ab-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat soluta laudantium dignissimos libero voluptatibus quos. Optio ratione consequuntur, repellat in velit sed saepe nulla officia.</p>
+                    <a class="btn rounded-5 text-light btn-lg" href="#" role="button" style="background-color:#452b08ff;">Read More</a>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="workprotfilo">
+        <div class="work-pro">
+          <div class="work-follow wf1 d-flex justify-content-center align-items-center">
+            <div class="work w-75 con d-flex align-items-center ">
+              <h1>Our Work Portfolio</h1>
+              <div class="line"></div>
+            </div>
+          </div>
+          <div class="work-follow wf2">
+              <div class="row">
+                <div class="col-md-4 p-0">
+                  <img src="image/img-9.png" class="picture " alt="">
+                </div>
+                <div class="col-md-4 p-0">
+                  <img src="image/img-10.png" class="picture" alt="">
+                </div>
+                <div class="col-md-4 p-0">
+                  <img src="image/img-11.png" class="picture" alt="">
+                </div>
+                <div class="col-md-4 p-0">
+                  <img src="image/img-12.png" class="picture" alt="">
+                </div>
+                <div class="col-md-4 p-0">
+                  <img src="image/img-13.png" class="picture" alt="">
+                </div>
+                <div class="col-md-4 p-0">
+                  <img src="image/img-14.png" class="picture" alt="">
+                </div>
+              </div>
+              <div class="work-jumptron p-5">
+                <div class="container">
+                  <div class="mt-5 text-center jump-contet">
+                    <h1>We Are Providing Best Business Service</h1> 
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p> 
+                    <a class="btn btn-lg rounded-5 fs-4 text-light" href="#" role="button" style="background-color:#452b08ff;">Get A Quote</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+      <section id="consulting" class="w-100 d-flex justify-content-center mt-4">
+           <div class="main-consluting">
+            <div class="container">
+              <div class="row">
+                <div class="col-12  con d-flex align-items-center">
+                  <h1>Why Our Consulting?</h1>
+                  <div class="line"></div>
+                </div>
+                <div class="col-12  d-flex cb-all">
+                  <div class="con-box  p-0 w-100 cb1">
+                    <div class="container-fluid p-0">
+                      <div class="mt-5 p-3 jump-contet p-0 con-para">
+                        <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p> 
+                        <a class="btn btn-lg rounded-5 fs-4 text-light" href="#" role="button" style="background-color:#452b08ff;">Read More</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="con-box  w-100 cb2">
+                    <figure class="d-flex justify-content-center align-items-center">
+                      <img src="image/img-15.png" class="img-fluid" alt="">
+                    </figure>
+                  </div>
+                </div>
+               </div>
+            </div>
+           </div>
+      </section>
+      <section id="clients" class="w-100 d-flex justify-content-center mt-4">
+        <div class="main-clients">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 con d-flex align-items-center">
+                <h1>What Is Says Our Clients</h1> 
+                <div class="line"></div>
+              </div>
+              <div class="col-12  p-5 d-flex justify-content-center">
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators" style="bottom: -12%;">
+                    <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" style="background-color: black;"></button>
+                    <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1" aria-label="Slide 2" style="background-color: black;"></button>
+                    <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2" aria-label="Slide 3" style="background-color: black;"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                      <div class="cards-wappers">
+                        <div class="card" style="width: 18rem;">
+                          <div class="para p-2" style="border: 3px solid black;">
+                            <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro possimus odio reprehenderit dolorum impedit quis dolores obcaecati similique nisi facilis modi eveniet magnam dolorem neque deleniti quos rerum eius labore doloribus, adipisci officia sequi tempora architecto. Voluptates, quaerat totam? Dolorum.</p>
+                          </div>
+                          <div class="card-body p-2 d-flex">
+                            <div class="img-name-box w-50 d-flex justify-content-center align-items-center p-3">
+                                <img src="image/img-16.png" class="img-fluid" alt="" width="120" height="120">
+                            </div>
+                            <div class="img-name-box w-100 pt-3">
+                              <h2>Adipiscing</h2>
+                              <h5 class="fs-6" style="opacity: 0.8;">Magna</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                          <div class="para p-2" style="border: 3px solid black;">
+                            <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro possimus odio reprehenderit dolorum impedit quis dolores obcaecati similique nisi facilis modi eveniet magnam dolorem neque deleniti quos rerum eius labore doloribus, adipisci officia sequi tempora architecto. Voluptates, quaerat totam? Dolorum.</p>
+                          </div>
+                          <div class="card-body p-2 d-flex">
+                            <div class="img-name-box w-50 d-flex justify-content-center align-items-center p-3">
+                                <img src="image/img-17.png" class="img-fluid" alt="" width="120" height="120">
+                            </div>
+                            <div class="img-name-box w-100 pt-3">
+                              <h2>Adipiscing</h2>
+                              <h5 class="fs-6" style="opacity: 0.8;">Magna</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                          <div class="para p-2" style="border: 3px solid black;">
+                            <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro possimus odio reprehenderit dolorum impedit quis dolores obcaecati similique nisi facilis modi eveniet magnam dolorem neque deleniti quos rerum eius labore doloribus, adipisci officia sequi tempora architecto. Voluptates, quaerat totam? Dolorum.</p>
+                          </div>
+                          <div class="card-body p-2 d-flex">
+                            <div class="img-name-box w-50 d-flex justify-content-center align-items-center p-3">
+                                <img src="image/img-18.png" class="img-fluid" alt="" width="120" height="120">
+                            </div>
+                            <div class="img-name-box w-100 pt-3">
+                              <h2>Adipiscing</h2>
+                              <h5 class="fs-6" style="opacity: 0.8;">Magna</h5>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                      <div class="cards-wappers">
+                        <div class="card" style="width: 18rem;">
+                          <div class="para p-2" style="border: 3px solid black;">
+                            <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro possimus odio reprehenderit dolorum impedit quis dolores obcaecati similique nisi facilis modi eveniet magnam dolorem neque deleniti quos rerum eius labore doloribus, adipisci officia sequi tempora architecto. Voluptates, quaerat totam? Dolorum.</p>
+                          </div>
+                          <div class="card-body p-2 d-flex">
+                            <div class="img-name-box w-50 d-flex justify-content-center align-items-center p-3">
+                                <img src="image/img-16.png" class="img-fluid" alt="" width="120" height="120">
+                            </div>
+                            <div class="img-name-box w-100 pt-3">
+                              <h2>Adipiscing</h2>
+                              <h5 class="fs-6" style="opacity: 0.8;">Magna</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                          <div class="para p-2" style="border: 3px solid black;">
+                            <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro possimus odio reprehenderit dolorum impedit quis dolores obcaecati similique nisi facilis modi eveniet magnam dolorem neque deleniti quos rerum eius labore doloribus, adipisci officia sequi tempora architecto. Voluptates, quaerat totam? Dolorum.</p>
+                          </div>
+                          <div class="card-body p-2 d-flex">
+                            <div class="img-name-box w-50 d-flex justify-content-center align-items-center p-3">
+                                <img src="image/img-17.png" class="img-fluid" alt="" width="120" height="120">
+                            </div>
+                            <div class="img-name-box w-100 pt-3">
+                              <h2>Adipiscing</h2>
+                              <h5 class="fs-6" style="opacity: 0.8;">Magna</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                          <div class="para p-2" style="border: 3px solid black;">
+                            <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro possimus odio reprehenderit dolorum impedit quis dolores obcaecati similique nisi facilis modi eveniet magnam dolorem neque deleniti quos rerum eius labore doloribus, adipisci officia sequi tempora architecto. Voluptates, quaerat totam? Dolorum.</p>
+                          </div>
+                          <div class="card-body p-2 d-flex">
+                            <div class="img-name-box w-50 d-flex justify-content-center align-items-center p-3">
+                                <img src="image/img-18.png" class="img-fluid" alt="" width="120" height="120">
+                            </div>
+                            <div class="img-name-box w-100 pt-3">
+                              <h2>Adipiscing</h2>
+                              <h5 class="fs-6" style="opacity: 0.8;">Magna</h5>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="cards-wappers">
+                        <div class="card" style="width: 18rem;">
+                          <div class="para p-2" style="border: 3px solid black;">
+                            <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro possimus odio reprehenderit dolorum impedit quis dolores obcaecati similique nisi facilis modi eveniet magnam dolorem neque deleniti quos rerum eius labore doloribus, adipisci officia sequi tempora architecto. Voluptates, quaerat totam? Dolorum.</p>
+                          </div>
+                          <div class="card-body p-2 d-flex">
+                            <div class="img-name-box w-50 d-flex justify-content-center align-items-center p-3">
+                                <img src="image/img-16.png" class="img-fluid" alt="" width="120" height="120">
+                            </div>
+                            <div class="img-name-box w-100 pt-3">
+                              <h2>Adipiscing</h2>
+                              <h5 class="fs-6" style="opacity: 0.8;">Magna</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                          <div class="para p-2" style="border: 3px solid black;">
+                            <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro possimus odio reprehenderit dolorum impedit quis dolores obcaecati similique nisi facilis modi eveniet magnam dolorem neque deleniti quos rerum eius labore doloribus, adipisci officia sequi tempora architecto. Voluptates, quaerat totam? Dolorum.</p>
+                          </div>
+                          <div class="card-body p-2 d-flex">
+                            <div class="img-name-box w-50 d-flex justify-content-center align-items-center p-3">
+                                <img src="image/img-17.png" class="img-fluid" alt="" width="120" height="120">
+                            </div>
+                            <div class="img-name-box w-100 pt-3">
+                              <h2>Adipiscing</h2>
+                              <h5 class="fs-6" style="opacity: 0.8;">Magna</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                          <div class="para p-2" style="border: 3px solid black;">
+                            <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro possimus odio reprehenderit dolorum impedit quis dolores obcaecati similique nisi facilis modi eveniet magnam dolorem neque deleniti quos rerum eius labore doloribus, adipisci officia sequi tempora architecto. Voluptates, quaerat totam? Dolorum.</p>
+                          </div>
+                          <div class="card-body p-2 d-flex">
+                            <div class="img-name-box w-50 d-flex justify-content-center align-items-center p-3">
+                                <img src="image/img-18.png" class="img-fluid" alt="" width="120" height="120">
+                            </div>
+                            <div class="img-name-box w-100 pt-3">
+                              <h2>Adipiscing</h2>
+                              <h5 class="fs-6" style="opacity: 0.8;">Magna</h5>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="forms" class="w-100 d-flex justify-content-center">
+        <div class="main-form">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12">
+                <div class="container mt-3">
+                  <div class="mt-4 p-5 text-dark text-center req ">
+                    <h1>Request A Call Back</h1> 
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p> 
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 d-flex justify-content-center align-items-center">
+                <form action="" class="w-50 form-main d-flex gap-2 flex-column align-items-center">
+                  <input type="text" name="" id="form-inputs" placeholder="Name">
+                  <input type="text" name="" id="form-inputs" placeholder="Phone Number">
+                  <input type="text" name="" id="form-inputs" placeholder="Email Address">
+                  <textarea name="" id="form-inputs" cols="30" rows="10" placeholder="Message"></textarea>
+                  <a class="btn btn w-50 rounded-5 fs-5 text-light form-btn" href="#" role="button" style="background-color:#c9c497;">Send</a>
+
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section id="footer" class="pt-3">
+        <div class="main-footer" style="background-color:#452b08ff;">
+          <div class="container mt-5">
+            <div class="row mt-5">
+              <div class="col-12 mt-5">
+                <div class="row gap-2">
+                  <div class="col-md">
+                    <div class="container p-0">
+                      <div class="text-light req p-0">
+                        <h1>ADDRESS</h1> 
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p> 
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md">
+                    <ul class="navbar-nav pt-0">
+                      <h1 class="fs-3 text-light" style="font-weight: 550;">QUICK LINKS</h1>
+                      <li class="nav-item text-dark fs-6" style="opacity: 0.9;">
+                        <a class="nav-link text-light active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item text-dark fs-6" style="opacity: 0.9;">
+                        <a class="nav-link text-light" href="#">Home</a>
+                      </li>
+                      <li class="nav-item text-dark fs-6" style="opacity: 0.9;">
+                        <a class="nav-link text-light" href="#">Blog</a>
+                      </li>
+                      <li class="nav-item text-dark fs-6" style="opacity: 0.9;">
+                        <a class="nav-link text-light" href="#">About</a>
+                      </li>
+                      <li class="nav-item text-dark fs-6" style="opacity: 0.9;">
+                        <a class="nav-link text-light" href="#">Service</a>
+                      </li>
+                      <li class="nav-item text-dark fs-6" style="opacity: 0.9;">
+                        <a class="nav-link text-light" href="#">client</a>
+                      </li>
+                      <li class="nav-item text-dark fs-6" style="opacity: 0.9;">
+                        <a class="nav-link text-light" href="#">Contact Us</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md">
+                    <h1 class="text-light fs-3">NEWS LETTERS</h1>
+                    <input type="text" name="" id="ft-inputs" placeholder="Enter your email address">
+                    <input type="text" name="" id="ft-inputs" class="mt-3" placeholder="Phone number">
+                    <a class="btn btn w-50 mt-2 rounded-5 fs-5 text-light" href="#" role="button" style="background-color:#c9c497;">SUBSCRIBE</a>
+
+                  </div>
+                  <div class="col-md d-flex justify-content-center justify-content-evenly">
+                    <div class="social-med fs-3 text-white">
+                     <a><i class="fa-brands fa-facebook"></i></a> 
+                     <a><i class="fa-brands fa-twitter"></i></a> 
+                      <a><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright w-100">
+          <div class="row">
+            <div class="col-12 d-flex justify-content-center" style="background-color: #e2e1e0;">
+              <span class="fs-6 fw-bold text-center text-dark">Copyrights 2020 All Right Reserved By Free html Templates</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+</html>
